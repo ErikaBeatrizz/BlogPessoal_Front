@@ -1,14 +1,11 @@
 import './App.css';
-import { Title } from './componentes/Title/Title';
-import  { Text } from './componentes/Text/Text'
+import Navbar from './componentes/navbar/Navbar';
 
 function App() {
   const nome = 'Erika';
   return (
-    <>
-    <Title nome="Diogo" /> 
-    <Text />
-    
+    <>    
+    <Navbar />    
     </>
   );
 }
